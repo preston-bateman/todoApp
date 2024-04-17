@@ -10,7 +10,7 @@ export default function App(){
 
     return JSON.parse(localValue)
   })
-
+//hooks
   useEffect(() => {
     localStorage.setItem("ITEMS", JSON.stringify(todos))
   }, [todos])
